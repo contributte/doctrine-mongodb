@@ -1,0 +1,53 @@
+{
+  "name": "nettrine/mongodb",
+  "description": "MongoDB for Nette Framework",
+  "keywords": ["nette", "doctrine", "mongodb", "database", "document"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/nettrine/mongodb",
+  "authors": [
+    {
+      "name": "David Šolc",
+      "homepage": "https://solc.dev"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-mongodb": "*",
+    "mongodb/mongodb": "^1.5.2",
+    "nette/di": "^3.0.3",
+    "nette/schema": "^1.0.2"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.3.1",
+    "ninjify/qa": "^0.9.0",
+    "phpstan/extension-installer": "^1.0.3",
+    "phpstan/phpstan": "^0.12.0",
+    "phpstan/phpstan-deprecation-rules": "^0.12.2",
+    "phpstan/phpstan-nette": "^0.12.3",
+    "phpstan/phpstan-strict-rules": "^0.12.2",
+    "phpunit/phpunit": "^8.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nettrine\\MongoDB\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Cases\\": "tests/cases",
+      "Tests\\Fixtures\\": "tests/fixtures",
+      "Tests\\Toolkit\\": "tests/toolkit"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
