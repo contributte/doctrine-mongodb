@@ -26,7 +26,7 @@ extensions:
 
 ## Configuration
 
-You can look for configuration options here: https://www.php.net/manual/en/mongodb-driver-manager.construct.php
+You can look at configuration options here: https://www.php.net/manual/en/mongodb-driver-manager.construct.php
 
 **Schema definition**
 
@@ -48,7 +48,7 @@ Default URI is: mongodb://127.0.0.1
 
 ## Other
 
-This repository is inspired by these packages.
+This repository is inspired by this package.
 
 - https://gitlab.com/nettrine/dbal
 
