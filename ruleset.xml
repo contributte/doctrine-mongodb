@@ -14,9 +14,7 @@
 		<properties>
 			<property name="rootNamespaces" type="array" value="
 				src=>Nettrine\MongoDB,
-				tests/cases=>Tests\Cases,
-				tests/fixtures=>Tests\Fixtures,
-				tests/toolkit=>Tests\Toolkit
+				tests/cases=>Tests\Cases
 			"/>
 		</properties>
 	</rule>
