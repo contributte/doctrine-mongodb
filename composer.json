@@ -20,13 +20,12 @@
   },
   "require-dev": {
     "mockery/mockery": "^1.4.2",
-    "ninjify/qa": "^0.9.0",
+    "ninjify/qa": "^0.13.0",
     "ninjify/nunjuck": "^0.4.0",
-    "phpstan/extension-installer": "^1.0.5",
-    "phpstan/phpstan": "^0.12.57",
-    "phpstan/phpstan-deprecation-rules": "^0.12.5",
-    "phpstan/phpstan-nette": "^0.12.10",
-    "phpstan/phpstan-strict-rules": "^0.12.5",
+    "phpstan/phpstan": "^1.0",
+    "phpstan/phpstan-deprecation-rules": "^1.0",
+    "phpstan/phpstan-nette": "^1.0",
+    "phpstan/phpstan-strict-rules": "^1.0",
     "nette/tester": "^2.3.4"
   },
   "autoload": {
@@ -42,7 +41,10 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   },
   "extra": {
     "branch-alias": {
