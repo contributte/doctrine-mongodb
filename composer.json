@@ -4,7 +4,7 @@
   "keywords": ["nette", "doctrine", "mongodb", "database", "document"],
   "type": "library",
   "license": "MIT",
-  "homepage": "https://github.com/nettrine/mongodb",
+  "homepage": "https://github.com/contributte/doctrine-mongodb",
   "authors": [
     {
       "name": "David Šolc",

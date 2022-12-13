@@ -1,4 +1,4 @@
-# Nettrine MongoDB
+# Contributte Doctrine MongoDB
 
 [MongoDB](https://github.com/mongodb/mongo-php-library) to Nette Framework.
 

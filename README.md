@@ -1,7 +1,7 @@
-![Nettrine MongoDB](https://heatbadger.now.sh/github/readme/nettrine/mongodb/)
+![Nettrine MongoDB](https://heatbadger.now.sh/github/readme/contributte/doctrine-mongodb/)
 
 <p align=center>
-  <a href="https://github.com/nettrine/mongodb/actions">
+  <a href="https://github.com/contributte/doctrine-mongodb/actions">
     <img src="https://badgen.net/github/checks/nettrine/mongodb/master?cache=300">
   </a>
   <a href="https://coveralls.io/r/nettrine/mongodb">
