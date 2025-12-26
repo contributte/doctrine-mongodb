@@ -7,3 +7,6 @@
 
 # Tests
 /coverage.xml
+/coverage.html
+/tests/tmp
+/tests/**/output
