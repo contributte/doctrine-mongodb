@@ -1,41 +1,41 @@
 {
-  "name": "nettrine/mongodb",
-  "description": "MongoDB for Nette Framework",
-  "keywords": ["nette", "doctrine", "mongodb", "database", "document"],
+  "name": "contributte/doctrine-mongodb",
+  "description": "Doctrine MongoDB for Nette Framework",
+  "keywords": ["nette", "contributte", "doctrine", "mongodb", "database", "document"],
   "type": "library",
   "license": "MIT",
   "homepage": "https://github.com/contributte/doctrine-mongodb",
   "authors": [
     {
-      "name": "David Šolc",
+      "name": "Milan Felix Sulc",
+      "homepage": "https://f3l1x.io"
+    },
+    {
+      "name": "David Solc",
       "homepage": "https://solc.dev"
     }
   ],
   "require": {
-    "php": ">=7.3",
+    "php": ">=8.2",
     "ext-mongodb": "*",
-    "mongodb/mongodb": "^1.5.2",
-    "nette/di": "^3.0.3",
-    "nette/schema": "^1.0.2"
+    "mongodb/mongodb": "^1.15",
+    "nette/di": "^3.1",
+    "nette/schema": "^1.2"
   },
   "require-dev": {
-    "mockery/mockery": "^1.4.2",
-    "ninjify/qa": "^0.13.0",
-    "ninjify/nunjuck": "^0.4.0",
-    "phpstan/phpstan": "^1.0",
-    "phpstan/phpstan-deprecation-rules": "^1.0",
-    "phpstan/phpstan-nette": "^1.0",
-    "phpstan/phpstan-strict-rules": "^1.0",
-    "nette/tester": "^2.3.4"
+    "contributte/qa": "^0.4",
+    "contributte/phpstan": "^0.1",
+    "contributte/tester": "^0.3",
+    "mockery/mockery": "^1.6"
   },
   "autoload": {
     "psr-4": {
-      "Nettrine\\MongoDB\\": "src/"
+      "Contributte\\DoctrineMongodb\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\Cases\\": "tests/cases"
+      "Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
@@ -48,7 +48,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.2.x-dev"
+      "dev-master": "0.3.x-dev"
     }
   }
 }
