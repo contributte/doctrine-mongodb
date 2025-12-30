@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.2",
     "ext-mongodb": "*",
     "mongodb/mongodb": "^1.15.0",
     "nette/di": "^3.1.0",
