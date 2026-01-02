@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Contributte\\DoctrineMongodb\\": "src/"
+      "Nettrine\\MongoDB\\": "src/"
     }
   },
   "autoload-dev": {

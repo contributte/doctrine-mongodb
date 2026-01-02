@@ -20,7 +20,7 @@ Register extension
 
 ```neon
 extensions:
-    mongodb: Contributte\DoctrineMongodb\DI\MongoDBExtension
+    mongodb: Nettrine\MongoDB\DI\MongoDBExtension
 ```
 
 ## Configuration
