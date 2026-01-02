@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\DoctrineMongodb\DI;
+namespace Nettrine\MongoDB\DI;
 
 use MongoDB\Client;
 use Nette\DI\CompilerExtension;

@@ -10,7 +10,7 @@
 	<rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
 		<properties>
 			<property name="rootNamespaces" type="array">
-				<element key="src" value="Contributte\DoctrineMongodb"/>
+				<element key="src" value="Nettrine\MongoDB"/>
 				<element key="tests/Cases" value="Tests\Cases"/>
 			</property>
 		</properties>

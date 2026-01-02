@@ -2,7 +2,7 @@
 
 namespace Tests\Cases\Unit\DI;
 
-use Contributte\DoctrineMongodb\DI\MongoDBExtension;
+use Nettrine\MongoDB\DI\MongoDBExtension;
 use Contributte\Tester\Environment;
 use Contributte\Tester\Toolkit;
 use MongoDB\Client;
