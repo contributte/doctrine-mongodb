@@ -1,7 +1,7 @@
 {
-  "name": "contributte/doctrine-mongodb",
+  "name": "nettrine/mongodb",
   "description": "Doctrine MongoDB for Nette Framework",
-  "keywords": ["nette", "contributte", "doctrine", "mongodb", "database", "document"],
+  "keywords": ["nette", "nettrine", "doctrine", "mongodb", "database", "document"],
   "type": "library",
   "license": "MIT",
   "homepage": "https://github.com/contributte/doctrine-mongodb",

@@ -3,11 +3,11 @@
 <p align=center>
   <a href="https://github.com/contributte/doctrine-mongodb/actions"><img src="https://badgen.net/github/checks/contributte/doctrine-mongodb/master?cache=300"></a>
   <a href="https://coveralls.io/r/contributte/doctrine-mongodb"><img src="https://badgen.net/coveralls/c/github/contributte/doctrine-mongodb?cache=300"></a>
-  <a href="https://packagist.org/packages/contributte/doctrine-mongodb"><img src="https://badgen.net/packagist/dm/contributte/doctrine-mongodb"></a>
-  <a href="https://packagist.org/packages/contributte/doctrine-mongodb"><img src="https://badgen.net/packagist/v/contributte/doctrine-mongodb"></a>
+  <a href="https://packagist.org/packages/nettrine/mongodb"><img src="https://badgen.net/packagist/dm/nettrine/mongodb"></a>
+  <a href="https://packagist.org/packages/nettrine/mongodb"><img src="https://badgen.net/packagist/v/nettrine/mongodb"></a>
 </p>
 <p align=center>
-  <a href="https://packagist.org/packages/contributte/doctrine-mongodb"><img src="https://badgen.net/packagist/php/contributte/doctrine-mongodb"></a>
+  <a href="https://packagist.org/packages/nettrine/mongodb"><img src="https://badgen.net/packagist/php/nettrine/mongodb"></a>
   <a href="https://github.com/contributte/doctrine-mongodb"><img src="https://badgen.net/github/license/contributte/doctrine-mongodb"></a>
   <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
   <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
@@ -20,10 +20,10 @@ Website <a href="https://contributte.org">contributte.org</a> | Contact <a href=
 
 ## Usage
 
-To install the latest version of `contributte/doctrine-mongodb` use [Composer](https://getcomposer.org).
+To install the latest version of `nettrine/mongodb` use [Composer](https://getcomposer.org).
 
 ```bash
-composer require contributte/doctrine-mongodb
+composer require nettrine/mongodb
 ```
 
 ## Documentation
