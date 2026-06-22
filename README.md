@@ -18,17 +18,7 @@
 Website <a href="https://contributte.org">contributte.org</a> | Contact <a href="https://f3l1x.io">f3l1x.io</a> | Twitter <a href="https://twitter.com/contributte">@contributte</a>
 </p>
 
-## Usage
-
-To install the latest version of `nettrine/mongodb` use [Composer](https://getcomposer.org).
-
-```bash
-composer require nettrine/mongodb
-```
-
-## Documentation
-
-For details on how to use this package, check out our [documentation](.docs).
+Doctrine MongoDB integration for Nette Framework.
 
 ## Versions
 
@@ -36,6 +26,55 @@ For details on how to use this package, check out our [documentation](.docs).
 |--------|---------|----------|-------|---------|
 | dev    | `^0.3`  | `master` | 3.3+  | `>=8.2` |
 | stable | `^0.2`  | `master` | 3.3+  | `>=8.2` |
+
+## Installation
+
+To install the latest version of `nettrine/mongodb` use [Composer](https://getcomposer.org).
+
+```bash
+composer require nettrine/mongodb
+```
+
+Register extension:
+
+```neon
+extensions:
+    mongodb: Nettrine\MongoDB\DI\MongoDBExtension
+```
+
+## Configuration
+
+You can look at configuration options here: https://www.php.net/manual/en/mongodb-driver-manager.construct.php
+
+**Schema definition**
+
+```neon
+mongodb:
+    uri: <string>
+    uriOptions: <array>
+    driverOptions: <array>
+```
+
+**Under the hood**
+
+Default URI is: `mongodb://127.0.0.1/`
+
+**Side notes**
+
+1. At this time we support only 1 connection, the **default** connection. If you need more connections (more databases?), please open an issue or send a PR. Thanks.
+
+## Other
+
+This repository is inspired by these packages:
+
+- https://gitlab.com/nettrine/dbal
+
+Thank you guys.
+
+## Examples
+
+- https://github.com/contributte/playground (playground)
+- https://contributte.org/examples.html (more examples)
 
 ## Development
 
