@@ -44,7 +44,7 @@ extensions:
 
 ## Configuration
 
-You can look at configuration options here: https://www.php.net/manual/en/mongodb-driver-manager.construct.php
+See the [MongoDB driver manager options](https://www.php.net/manual/en/mongodb-driver-manager.construct.php) for supported URI, URI options, and driver options.
 
 **Schema definition**
 
@@ -63,18 +63,9 @@ Default URI is: `mongodb://127.0.0.1/`
 
 1. At this time we support only 1 connection, the **default** connection. If you need more connections (more databases?), please open an issue or send a PR. Thanks.
 
-## Other
-
-This repository is inspired by these packages:
-
-- https://gitlab.com/nettrine/dbal
-
-Thank you guys.
-
 ## Examples
 
-- https://github.com/contributte/playground (playground)
-- https://contributte.org/examples.html (more examples)
+See more Contributte examples at [contributte.org/examples](https://contributte.org/examples.html).
 
 ## Development
 
